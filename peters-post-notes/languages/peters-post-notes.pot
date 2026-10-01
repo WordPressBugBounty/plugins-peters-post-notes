@@ -1,0 +1,221 @@
+# Copyright (C) 2026 Giannis Kipouros
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Peter's Post Notes 2.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/peters-post-notes\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-09-30T17:24:03+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: peters-post-notes\n"
+
+#. Plugin Name of the plugin
+#: peters_post_notes.php
+#: includes/class-ppn-settings.php:147
+#: includes/class-ppn-settings.php:148
+msgid "Peter's Post Notes"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: peters_post_notes.php
+msgid "https://wordpress.org/plugins/peters-post-notes/"
+msgstr ""
+
+#. Description of the plugin
+#: peters_post_notes.php
+msgid "Add notes to the edit screen of posts, pages and custom post types, plus general and private notes on the dashboard."
+msgstr ""
+
+#. Author of the plugin
+#: peters_post_notes.php
+msgid "Giannis Kipouros"
+msgstr ""
+
+#: includes/admin/class-ppn-dashboard.php:36
+msgid "Collaboration Notes"
+msgstr ""
+
+#: includes/admin/class-ppn-dashboard.php:39
+msgid "General Notes"
+msgstr ""
+
+#: includes/admin/class-ppn-list-columns.php:70
+msgid "Latest note"
+msgstr ""
+
+#: includes/admin/class-ppn-meta-box.php:43
+msgid "Notes"
+msgstr ""
+
+#: includes/class-ppn-plugin.php:107
+#: includes/class-ppn-rest-controller.php:292
+msgid "Error: Unknown or database problem when updating note."
+msgstr ""
+
+#: includes/class-ppn-plugin.php:108
+#: includes/class-ppn-rest-controller.php:212
+msgid "Please write a note first."
+msgstr ""
+
+#: includes/class-ppn-plugin.php:151
+msgid "M j, Y \\a\\t G:i"
+msgstr ""
+
+#: includes/class-ppn-plugin.php:168
+msgid "User"
+msgstr ""
+
+#: includes/class-ppn-rest-controller.php:158
+msgid "This note is the same as the latest note."
+msgstr ""
+
+#: includes/class-ppn-settings.php:163
+msgid "Settings"
+msgstr ""
+
+#: templates/dashboard-collaboration.php:17
+msgid "No relevant notes."
+msgstr ""
+
+#: templates/dashboard-collaboration.php:24
+#: templates/note-item.php:23
+msgid "[private]"
+msgstr ""
+
+#: templates/dashboard-collaboration.php:31
+msgid "on"
+msgstr ""
+
+#: templates/dashboard-general.php:23
+msgid "Personal notes:"
+msgstr ""
+
+#: templates/dashboard-general.php:30
+#: templates/meta-box.php:45
+msgid "Add note:"
+msgstr ""
+
+#: templates/dashboard-general.php:39
+#: templates/meta-box.php:50
+#: templates/note-item.php:44
+msgid "Private note"
+msgstr ""
+
+#: templates/dashboard-general.php:42
+msgid "Add"
+msgstr ""
+
+#: templates/general-notes-list.php:22
+msgid "No general notes."
+msgstr ""
+
+#: templates/general-notes-list.php:42
+msgid "Older"
+msgstr ""
+
+#: templates/general-notes-list.php:45
+msgid "Newer"
+msgstr ""
+
+#: templates/meta-box.php:19
+msgid "No notes for this post."
+msgstr ""
+
+#: templates/meta-box.php:53
+msgid "Add note"
+msgstr ""
+
+#: templates/note-item.php:33
+msgid "Edit"
+msgstr ""
+
+#: templates/note-item.php:40
+msgid "Edit note"
+msgstr ""
+
+#: templates/note-item.php:48
+msgid "Save"
+msgstr ""
+
+#: templates/note-item.php:49
+msgid "Cancel"
+msgstr ""
+
+#: templates/note-item.php:50
+msgid "Delete"
+msgstr ""
+
+#: templates/settings-page.php:21
+msgid "Peter's Post Notes settings"
+msgstr ""
+
+#: templates/settings-page.php:28
+msgid "Which types of notes to show on the Dashboard"
+msgstr ""
+
+#: templates/settings-page.php:31
+msgid "Relevant notes including the current user's notes"
+msgstr ""
+
+#: templates/settings-page.php:32
+msgid "Relevant notes excluding the current user's notes"
+msgstr ""
+
+#: templates/settings-page.php:33
+msgid "All notes"
+msgstr ""
+
+#: templates/settings-page.php:38
+msgid "How many recent notes to display on the Dashboard. 0 = unlimited"
+msgstr ""
+
+#: templates/settings-page.php:44
+msgid "Show \"Add note\" text area for post within publish panel"
+msgstr ""
+
+#: templates/settings-page.php:48
+#: templates/settings-page.php:108
+#: templates/settings-page.php:117
+msgid "Yes"
+msgstr ""
+
+#: templates/settings-page.php:50
+msgid "Classic editor only."
+msgstr ""
+
+#: templates/settings-page.php:54
+msgid "Roles that are allowed to view all notes (used when the global setting is to only show relevant notes)"
+msgstr ""
+
+#: templates/settings-page.php:64
+msgid "Capabilities that are allowed to view all notes (used when the global setting is to only show relevant notes)"
+msgstr ""
+
+#: templates/settings-page.php:74
+msgid "Roles that are allowed to edit all notes (they must also be allowed to view the notes)"
+msgstr ""
+
+#: templates/settings-page.php:84
+msgid "Capabilities that are allowed to edit all notes (they must also be allowed to view the notes)"
+msgstr ""
+
+#: templates/settings-page.php:94
+msgid "List of post types on which post notes should be enabled"
+msgstr ""
+
+#: templates/settings-page.php:104
+msgid "Allow the same set of HTML tags in notes as are allowed in WordPress comments"
+msgstr ""
+
+#: templates/settings-page.php:113
+msgid "Show \"Latest note\" column in the \"Manage posts\" page"
+msgstr ""
+
+#: templates/settings-page.php:122
+msgid "Capability required to add a general note. (Otherwise users can only add a private note.)"
+msgstr ""

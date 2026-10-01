@@ -1,0 +1,122 @@
+/* Peter's Post Notes admin styles. */
+
+.ppn-notes-list,
+.ppn-collab-list {
+	margin: 0;
+}
+
+.ppn-note {
+	margin: 0;
+	padding: 8px 0;
+	border-bottom: 1px solid #f0f0f1;
+}
+
+.ppn-note:last-child {
+	border-bottom: 0;
+}
+
+/* Notes by the current user. Negative margin keeps text aligned with other notes. */
+.ppn-note--own {
+	margin: 0 -8px;
+	padding: 8px;
+	background-color: #FFFCF0;
+	border-radius: 2px;
+}
+
+.ppn-note--own + .ppn-note--own {
+	margin-top: 4px;
+}
+
+.ppn-note p {
+	margin: 0 0 4px;
+}
+
+.ppn-note-meta {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 4px 8px;
+	align-items: baseline;
+	color: #646970;
+}
+
+.ppn-note-meta strong {
+	color: #1d2327;
+}
+
+.ppn-note-date {
+	font-style: italic;
+}
+
+.ppn-private-badge {
+	color: #996800;
+	font-weight: 600;
+}
+
+.ppn-note-content {
+	word-wrap: break-word;
+}
+
+.ppn-note-form textarea {
+	margin-bottom: 6px;
+}
+
+.ppn-note-form-actions,
+.ppn-add-actions {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+	align-items: center;
+}
+
+.ppn-note-form-actions .ppn-delete {
+	margin-left: auto;
+}
+
+.ppn-private-toggle {
+	display: block;
+	margin: 4px 0 8px;
+}
+
+.ppn-add-note {
+	margin-top: 12px;
+	padding-top: 12px;
+	border-top: 1px solid #dcdcde;
+}
+
+.ppn-add-note textarea {
+	margin-top: 4px;
+}
+
+/* Classic editor: box moved into the Publish panel. */
+#major-publishing-actions .ppn-add-note {
+	margin: 0 0 10px;
+	padding: 0 0 10px;
+	border-top: 0;
+	border-bottom: 1px solid #dcdcde;
+}
+
+.ppn-error {
+	margin: 6px 0 0;
+	color: #d63638;
+}
+
+.ppn-pager {
+	display: flex;
+	gap: 12px;
+	margin: 8px 0 0;
+}
+
+.ppn-general-personal {
+	margin-top: 12px;
+	padding-top: 12px;
+	border-top: 1px solid #dcdcde;
+}
+
+/* Dashboard CSS resets widget h4 margins; scope tighter to win. */
+#dashboard-widgets .ppn-general-personal h4 {
+	margin: 0 0 4px;
+}
+
+.ppn-busy {
+	opacity: 0.6;
+}

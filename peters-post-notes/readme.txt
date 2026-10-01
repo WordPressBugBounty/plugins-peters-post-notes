@@ -1,57 +1,128 @@
-=== Plugin Name ===
-Contributors: pkthree
-Donate link: http://www.theblog.ca
-Tags: post, notification, admin, collaboration, workflow, posts
-Requires at least: 3.2
-Tested up to: 5.5
-Stable tag: trunk
+=== Peter's Post Notes ===
+Contributors: thewpgarden
+Tags: admin notes, post notes, editorial, collaboration, notes
+Requires at least: 6.0
+Tested up to: 7.1
+Requires PHP: 7.4
+Stable tag: 2.0.0
+License: GPLv2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Add notes to the "edit post" and "edit page" sidebars. Collaborators can also share notes on the WordPress dashboard.
+Private and shared admin notes on posts, pages and custom post types. Editorial notes, team reminders and dashboard notes for WordPress teams.
 
 == Description ==
 
-Add notes on the "edit post" and "edit page" screens' sidebars in WordPress 2.8 and up. When used with [Peter's Collaboration E-mails](http://www.theblog.ca/wordpress-collaboration-emails "From Peter's Useful Crap") 1.2 and up, the notes are sent along with the e-mails in the collaboration workflow.  There is also a general and private notes system on the dashboard.
+Add admin notes to posts, pages and custom post types, right on the edit screen. Leave editorial notes for your writers, reminders for yourself, or feedback for your team. Only logged-in users who can edit the content see the notes. Visitors never see them.
+
+It is a simple, lightweight way to collaborate on content inside WordPress, without email threads or external tools.
+
+= Under new ownership =
+
+Peter's Post Notes has a new maintainer. Version 2.0.0 is a full security and compatibility update for current WordPress and PHP versions, including full block editor support. Existing notes and settings are kept and upgraded automatically. A big thank you to Peter (@pkthree), the original author, and to everyone who has used and translated the plugin over the years.
+
+= Who is it for? =
+
+* **Editorial teams and blogs**: editors leave feedback on drafts; writers reply before publishing.
+
+* **Agencies and freelancers**: keep client instructions and to-dos next to the page they belong to.
+
+* **Solo site owners**: private reminders on posts and pages ("update this in January", "check links").
+
+* **Multi-author sites**: see the latest notes on the posts you care about, straight from the dashboard.
 
 = Features =
 
-On its own, this plugin adds a panel to the sidebar of the add and edit post / page screens so that users can add notes for themselves or others and keep track of these notes. Whenever you save a post, you can type a note to be displayed along with the post in the edit view.
+⭐ **Notes box on the edit screen** of posts, pages and any custom post type you enable. Works in the block editor (Gutenberg) and the classic editor.
 
-On the dashboard, there's also a summary of the most recent notes. By default this shows notes by all people on relevant posts / pages. There is also a general and private notes system.
+⭐ **Instant saving**: add, edit and delete notes without saving or reloading the post.
 
-For an illustrated explanation on how the plugin works with [Peter's Collaboration E-mails](http://www.theblog.ca/wordpress-collaboration-emails "From Peter's Useful Crap") to send e-mails with the notes, see [this page](http://www.theblog.ca/wordpress-post-notes "From Peter's Useful Crap").
+⭐ **Private notes** that only you can see, alongside shared team notes.
 
-= Translations =
+⭐ **Collaboration Notes dashboard widget**: the latest notes on posts you wrote or commented on.
 
-* fr\_FR translation by Denis Rebaud
-* pt\_BR translation by Murillo Ferrari
-* es\_ES translation by Karin Sequen
-* ja translation by Kazuhiro Terada
-* pl\_PL translation by Michal Rozmiarek
-* nl\_NL translation by Rene of http://wpwebshop.com
-* sv\_SE translation by Karin Lindholm
-* ru\_RU translation by Alexander Maltsev
-* tr\_TR translation by Berkay Unal of http://www.berkayunal.com
-* da\_DK translation by Lars Andersen
-* de\_DE translation by Tobias Karnetzke
-* lt\_LT translation by Vincent G of http://www.host1free.com
-* it\_IT translation by Ludo
-* cs\_CZ translation by Michal Kuk
-* sk\_SK translation by Patrik Žec (PATWIST) of http://patwist.com
-* he\_IL translation by Itamar Megged
+⭐ **General Notes dashboard widget**: team-wide announcements and personal notes, with paging.
 
-= Requirements =
+⭐ **Latest note column** in the posts and pages lists, so you can see open feedback at a glance.
 
-* WordPress 3.2 or higher
+⭐ **Role and capability permissions**: choose who can see all notes, who can edit anyone's notes, and who can post team-wide notes.
+
+⭐ **Basic HTML** in notes (the same tags allowed in comments). Turn it on or off in **Settings > Peter's Post Notes**.
+
+⭐ **Secure by design**: nonce-protected REST API, escaped output and permission checks on every request.
+
+⭐ **Translation ready**: help translate it on [translate.wordpress.org](https://translate.wordpress.org/projects/wp-plugins/peters-post-notes/).
+
+= Privacy =
+
+Notes are stored in your own WordPress database. The plugin does not send data to any external service and adds nothing to the front end of your site.
 
 == Installation ==
 
-Unzip the peters\_post\_notes folder to your WordPress plugins folder. It should work out of the box, but you can tweak some settings in the plugin file itself if needed.
+1. In your WordPress admin, go to **Plugins > Add New**, search for "Peter's Post Notes" and click **Install Now**, then **Activate**.
+2. Go to **Settings > Peter's Post Notes** to choose the post types, dashboard options and permissions.
+3. Open any post or page: the **Notes** box appears in the editor sidebar.
 
 == Frequently Asked Questions ==
 
-Please visit the plugin page at http://www.theblog.ca/wordpress-post-notes with any questions.
+= How do I add a note to a post or page? =
+
+Open the post or page in the editor. In the **Notes** box in the sidebar, type your note and click **Add note**. In the block editor, a note left in the box is also added when you save the post.
+
+= Can I add private notes that only I can see? =
+
+Yes. Tick **Private note** before adding it. Private notes are only visible to the person who wrote them, including on the dashboard.
+
+= Who can see the notes? =
+
+Shared notes on a post are visible to users who can edit that post. Notes are never shown on the front end of your site.
+
+= Who can edit or delete a note? =
+
+The person who wrote it. In the settings you can also allow specific roles or capabilities to edit and delete other users' shared notes.
+
+= Does it work with custom post types? =
+
+Yes. Enable any post type that has an admin edit screen under **Settings > Peter's Post Notes**.
+
+= Does it work with the block editor (Gutenberg)? =
+
+Yes. Version 2.0.0 adds full block editor support. The classic editor is supported too.
+
+= I updated from version 1.x. Are my notes safe? =
+
+Yes. Your notes and settings are kept. The database tables are upgraded automatically the first time you visit the admin after updating. As with any update, we recommend a backup first.
+
+= What happens to my notes if I delete the plugin? =
+
+Deactivating keeps everything. Deleting the plugin from the Plugins screen removes its database tables and settings.
+
+== Screenshots ==
+
+1. Dashboard widgets: Collaboration Notes shows the latest notes on your posts; General Notes holds team-wide and personal notes.
+2. Notes box in the block editor sidebar, with shared and private notes. Add, edit and delete notes without saving the post.
+3. "Latest note" column in the posts list shows open feedback at a glance.
+4. Settings: choose which notes appear on the dashboard, who can see or edit all notes, and which post types have notes.
+5. Classic editor support: notes in the sidebar and an "Add note" box inside the Publish panel.
 
 == Changelog ==
+
+= 2.0.0 =
+The plugin is under new ownership. Security and compatibility release. Requires WordPress 6.0+ and PHP 7.4+.
+
+* Security: all actions now require a valid nonce (fixes cross-site request forgery on editing notes, adding dashboard notes and adding notes on save).
+* Security: all output is escaped (fixes stored XSS through post titles and note content in the dashboard widgets, the meta box and the post list).
+* Security: notes on a post can only be read or changed by users who can edit that post. Private notes can only be changed by their author.
+* Security: settings are validated against the real roles, capabilities and post types. All database queries are prepared.
+* Block editor support: add, edit and delete notes instantly. A note left in the box is added when the post is saved.
+* Your own notes have a highlighted background in the notes box and both dashboard widgets, so they stand out from your team's notes.
+* Replaced the deprecated tw-sack library with the WordPress REST API.
+* The "Latest note" column now appears for pages and every enabled post type, and loads with a single query.
+* Dashboard widget no longer uses query_posts().
+* Database: added a primary key and indexes to the notes tables. Existing notes are migrated automatically on update.
+* Fixed accented characters and emoji being lost on sites whose notes tables use the latin1 charset.
+* PHP 8.x compatibility fixes.
+* Text domain changed to "peters-post-notes" for wordpress.org language packs.
+* The charset setting was removed; the site charset is used.
 
 = 1.6.5 =
 * 2017-11-18: Add CSRF protection to note deletions and settings updates. (Thanks Jesse!)
@@ -139,3 +210,8 @@ Please visit the plugin page at http://www.theblog.ca/wordpress-post-notes with 
 
 = 0.1 =
 * 2008-11-10: First release.
+
+== Upgrade Notice ==
+
+= 2.0.0 =
+Security release: fixes cross-site request forgery and stored XSS issues. Requires WordPress 6.0 and PHP 7.4. Back up your database before updating; notes are migrated automatically.
