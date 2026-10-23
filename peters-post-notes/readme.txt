@@ -1,5 +1,5 @@
-=== Peter's Post Notes ===
-Contributors: thewpgarden
+=== Peter's Post Notes – Admin Notes for Posts and Pages ===
+Contributors: giannis4, thewpgarden
 Tags: admin notes, post notes, editorial, collaboration, notes
 Requires at least: 6.0
 Tested up to: 7.1
@@ -16,19 +16,21 @@ Add admin notes to posts, pages and custom post types, right on the edit screen.
 
 It is a simple, lightweight way to collaborate on content inside WordPress, without email threads or external tools.
 
+**Works with:** the block editor, the classic editor, and any post type with an admin edit screen.
+
 = Under new ownership =
 
 Peter's Post Notes has a new maintainer. Version 2.0.0 is a full security and compatibility update for current WordPress and PHP versions, including full block editor support. Existing notes and settings are kept and upgraded automatically. A big thank you to Peter (@pkthree), the original author, and to everyone who has used and translated the plugin over the years.
 
 = Who is it for? =
 
-* **Editorial teams and blogs**: editors leave feedback on drafts; writers reply before publishing.
+✍️ **Editorial teams and blogs**: editors leave feedback on drafts; writers reply before publishing.
 
-* **Agencies and freelancers**: keep client instructions and to-dos next to the page they belong to.
+💼 **Agencies and freelancers**: keep client instructions and to-dos next to the page they belong to.
 
-* **Solo site owners**: private reminders on posts and pages ("update this in January", "check links").
+🙋 **Solo site owners**: private reminders on posts and pages ("update this in January", "check links").
 
-* **Multi-author sites**: see the latest notes on the posts you care about, straight from the dashboard.
+👥 **Multi-author sites**: see the latest notes on the posts you care about, straight from the dashboard.
 
 = Features =
 
@@ -52,15 +54,39 @@ Peter's Post Notes has a new maintainer. Version 2.0.0 is a full security and co
 
 ⭐ **Translation ready**: help translate it on [translate.wordpress.org](https://translate.wordpress.org/projects/wp-plugins/peters-post-notes/).
 
+= Documentation and support =
+
+📖 [Documentation](https://thewpgarden.com/docs/peters-post-notes/): setup and a guide for every feature, from [adding notes](https://thewpgarden.com/docs/peters-post-notes/add-edit-and-delete-notes/) to [permissions](https://thewpgarden.com/docs/peters-post-notes/note-permissions/) and [upgrading from 1.x](https://thewpgarden.com/docs/peters-post-notes/upgrading-from-version-1/).
+
+🛟 [Support forum](https://wordpress.org/support/plugin/peters-post-notes/): questions and bug reports. We answer every topic.
+
+✉️ [Contact us](https://thewpgarden.com/contact-us/): anything that is not a support question.
+
+= Like it? =
+
+A [5-star review](https://wordpress.org/support/plugin/peters-post-notes/reviews/#new-post) is the most useful thing you can do for a small plugin. It takes a minute and helps others find it.
+
+= More from The WP Garden =
+
+Peter's Post Notes is maintained by [The WP Garden](https://thewpgarden.com/), small focused plugins for WooCommerce, BuddyPress and WordPress.
+
+* [Terms and Conditions per Product](https://wordpress.org/plugins/terms-and-conditions-per-product/): a required Terms checkbox per product.
+* [Checkout Guard](https://wordpress.org/plugins/checkout-guard/): block fake and spam orders at checkout.
+* [SubPortal](https://wordpress.org/plugins/subportal/): a self-service portal for WooCommerce Subscriptions.
+* [Pinned Feed Notices](https://wordpress.org/plugins/bp-pinned-feed-notices/): pinned announcements on the BuddyPress activity feed.
+* [Block Member Posting](https://wordpress.org/plugins/bp-block-member-posting/): stop chosen members posting on BuddyPress.
+
 = Privacy =
 
 Notes are stored in your own WordPress database. The plugin does not send data to any external service and adds nothing to the front end of your site.
 
 == Installation ==
 
-1. In your WordPress admin, go to **Plugins > Add New**, search for "Peter's Post Notes" and click **Install Now**, then **Activate**.
+1. In your WordPress admin, go to **Plugins > Add New Plugin**, search for "Peter's Post Notes" and click **Install Now**, then **Activate**.
 2. Go to **Settings > Peter's Post Notes** to choose the post types, dashboard options and permissions.
 3. Open any post or page: the **Notes** box appears in the editor sidebar.
+
+The [setup and settings guide](https://thewpgarden.com/docs/peters-post-notes/post-notes-setup-and-settings/) walks through the same steps in detail.
 
 == Frequently Asked Questions ==
 
@@ -95,6 +121,18 @@ Yes. Your notes and settings are kept. The database tables are upgraded automati
 = What happens to my notes if I delete the plugin? =
 
 Deactivating keeps everything. Deleting the plugin from the Plugins screen removes its database tables and settings.
+
+= Where is the documentation? =
+
+At [thewpgarden.com/docs/peters-post-notes](https://thewpgarden.com/docs/peters-post-notes/): setup, plus a guide for every feature.
+
+= How do I get support? =
+
+Open a topic in the [WordPress.org support forum](https://wordpress.org/support/plugin/peters-post-notes/). For anything else, [contact us](https://thewpgarden.com/contact-us/).
+
+= Can I translate Peter's Post Notes? =
+
+Yes. You can translate [Peter's Post Notes](https://translate.wordpress.org/projects/wp-plugins/peters-post-notes/) into your language on translate.wordpress.org.
 
 == Screenshots ==
 
